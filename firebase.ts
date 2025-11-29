@@ -13,5 +13,5 @@ const firebaseConfig = {
 // Initialiseer Firebase
 const app = firebase.initializeApp(firebaseConfig);
 
-// Exporteer de database connectie zodat we die in de app kunnen gebruiken
+// Exporteer de database connectie
 export const db = getFirestore();
